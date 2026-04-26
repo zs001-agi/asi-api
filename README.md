@@ -151,3 +151,7 @@ curl -X POST http://localhost:8080/api/generate?prompt="Hello, world!"
 
 - **How do I contact support?**
   Support is available via email at support@wutong.ai or through
+
+---
+markdown
+# Improve the API documentation section to include detailed descriptions and examples for each method.
