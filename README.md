@@ -127,3 +127,27 @@ Every API call contributes to making the system smarter. You don't just use AI â
 ## Documentation for the API Service
 
 For detailed instructions on how to use and interact with the API service, refer to the included `README.md` file.
+
+---
+# Install Wutong ASI CLI
+npm install -g wutong-cli
+
+# Initialize your project
+wutong init my-project
+
+# Deploy models to your server
+wutong deploy --model_name "gpt-4" --api_url http://localhost:8080
+
+# Use the API in your application
+curl -X POST http://localhost:8080/api/generate?prompt="Hello, world!"
+```
+
+---
+
+## ðŸŒŸ FAQs
+
+- **Can I cancel my subscription at any time?**
+  Yes, you can cancel it by contacting our support team.
+
+- **How do I contact support?**
+  Support is available via email at support@wutong.ai or through
