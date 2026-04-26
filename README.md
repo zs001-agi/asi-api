@@ -1,0 +1,125 @@
+# Wutong ASI API — Self-Evolving AI at Your Fingertips
+
+[![API Status](https://img.shields.io/badge/status-online-brightgreen)]()
+[![Model Count](https://img.shields.io/badge/models-5-blue)]()
+[![Token Price](https://img.shields.io/badge/token-$0.03%2F1K-orange)]()
+
+> **A locally-hosted, self-evolving AI system.** 5 models, 24/7 API, pay-per-token, no subscription.
+
+---
+
+## ✨ Why Wutong ASI?
+
+Most AI APIs charge a monthly subscription — you pay even when you don't use it. Wutong ASI is different:
+
+- **Pay per token** — only for what you consume
+- **Self-evolving** — models improve over time via genetic algorithms
+- **Locally hosted** — low latency, no data leaves our server
+- **5 models** — from lightweight 1.3B to 7B, pick the right tool for the job
+
+## 🚀 Quick Start
+
+```bash
+# Get your free API key (1000 free tokens)
+curl -X POST https://api.wutongasi.com/register
+
+# Try it out
+curl -X POST https://api.wutongasi.com/v1/chat \
+  -H "Authorization: Bearer YOUR_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "qwen2.5-coder:7b",
+    "messages": [{"role": "user", "content": "Write a Fibonacci function in Python"}]
+  }'
+```
+
+## 📊 Available Models
+
+| Model | Size | Best For | Speed |
+|-------|------|----------|-------|
+| `qwen2.5-coder:7b` | 7B | Code generation, complex reasoning | Moderate |
+| `deepseek-coder:6.7b` | 6.7B | Code completion, debugging | Fast |
+| `qwen2.5-coder:1.5b` | 1.5B | Quick tasks, classification | Very Fast |
+| `llama3.2:1b` | 1B | Simple Q&A | Blazing |
+| `deepseek-coder:1.3b` | 1.3B | Code snippets, formatting | Very Fast |
+
+## 💎 Pricing
+
+| Plan | Price | Tokens | Rate |
+|------|-------|--------|------|
+| Free | $0 | 1,000 | 10 req/min |
+| Starter | $3 | 100K | 60 req/min |
+| Pro ⭐ | $10 | 500K | Priority |
+| Ultra | $20 | 2M | Unlimited |
+
+## 📖 API Documentation
+
+### Chat Completion
+
+```http
+POST /v1/chat
+Content-Type: application/json
+Authorization: Bearer YOUR_API_KEY
+
+{
+  "model": "qwen2.5-coder:7b",
+  "messages": [
+    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": "Hello!"}
+  ],
+  "temperature": 0.7,
+  "max_tokens": 2048
+}
+```
+
+### List Models
+
+```http
+GET /v1/models
+Authorization: Bearer YOUR_API_KEY
+```
+
+### Check Balance
+
+```http
+GET /v1/balance
+Authorization: Bearer YOUR_API_KEY
+```
+
+## 🔗 Related Projects
+
+| Project | Description |
+|---------|-------------|
+| [asi-evolve](https://github.com/zs001-agi/asi-evolve) | Self-evolving AI framework (open source) |
+| [code-opt-ai](https://github.com/zs001-agi/code-opt-ai) | AI-powered Python code optimizer |
+
+## 🧠 The Self-Evolving Edge
+
+Wutong ASI doesn't just run models — it *evolves* them. Our genetic algorithm engine continuously:
+
+1. **Mutates** — explores new parameter combinations
+2. **Crosses over** — combines successful strategies
+3. **Selects** — keeps what works, discards what doesn't
+4. **Repeats** — 5000+ generations and counting
+
+Every API call contributes to making the system smarter. You don't just use AI — you *improve* it.
+
+---
+
+## ⚡ Server Status
+
+- **Endpoint:** `http://[2409:8a3c:8192:ee1:5969:670b:fb71:2b1f]:8768`
+- **Uptime:** Continuous
+- **Models:** 5 online
+- **Evolution generations:** 5000+
+
+---
+
+## 🤝 Support
+
+- Email: wutong_asi@outlook.com
+- GitHub Issues: For bugs and feature requests
+
+---
+
+**Wutong ASI** — *Not just AI. Self-evolving AI.*
