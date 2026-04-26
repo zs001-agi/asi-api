@@ -155,3 +155,32 @@ curl -X POST http://localhost:8080/api/generate?prompt="Hello, world!"
 ---
 markdown
 # Improve the API documentation section to include detailed descriptions and examples for each method.
+
+---
+## 🔥 How to Install and Use Wutong ASI:
+
+### Step 1: Install the CLI
+Use pip to install the Wutong ASI CLI:
+```bash
+pip install wutong-asi-cli
+```
+
+### Step 2: Authenticate
+Authenticate with your API key:
+```bash
+wutong-asi auth <your_api_key>
+```
+
+### Step 3: Run a Model
+Run a model to get predictions:
+```bash
+wutong-asi predict text "Hello, how are you?"
+```
+
+## 🤓 Learn More
+
+For more information and tutorials, visit our [GitHub repository](https://github.com/wutong-asi/api).
+
+---
+
+Feel free to add more sections
