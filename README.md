@@ -123,3 +123,7 @@ Every API call contributes to making the system smarter. You don't just use AI â
 ---
 
 **Wutong ASI** â€” *Not just AI. Self-evolving AI.*
+
+## Documentation for the API Service
+
+For detailed instructions on how to use and interact with the API service, refer to the included `README.md` file.
