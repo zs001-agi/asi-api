@@ -1,5 +1,6 @@
 
 ## 2026-04-27
-- Added new examples to demonstrate common use cases.
-- Fixed several bugs reported in the API.
-- Enhanced documentation for better understanding and usage clarity.
+asi-api update:
+- Added new usage examples
+- Fixed several bugs
+- Enhanced documentation for better clarity and usability
