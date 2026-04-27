@@ -184,3 +184,6 @@ For more information and tutorials, visit our [GitHub repository](https://github
 ---
 
 Feel free to add more sections
+
+---
+Enhance the project documentation to include examples of how to set up and run the API on different environments.
