@@ -2,17 +2,18 @@
 # Import necessary libraries
 import requests
 
-# Define the API endpoint
-url = "https://api.wutong.com/asi"
-
-# Define the request payload
-payload = {
-    "model": ["model1", "model2", "model3", "model4", "model5"],
-    "data": "your_input_data_here"
+# Define the API endpoint and parameters
+url = "https://wutong.asi.alibabacloud.com/v1/models"
+params = {
+    "name": "self-evolving",
+    "engine": "openai",
+    "model_id": "gpt-4",
+    "version": "v1.0"
 }
 
-# Send a POST request to the API
-response = requests.post(url, json=payload)
+# Make a GET request to the API
+response = requests.get(url, params=params)
 
-# Print the response
-print(response.json())
+# Print the response status code and text
+print(response.status_code)
+print(response.text)
