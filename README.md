@@ -246,3 +246,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```bash
 # Get your free trial key
 ```
+
+---
+Enhance the "Features" section by highlighting key functionalities and benefits of the API.
