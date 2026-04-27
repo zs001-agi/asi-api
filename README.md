@@ -227,3 +227,6 @@ print(response)
 ---
 
 This new section includes a clear and concise introduction of why Wutong ASI is different from other AI APIs, as well as a quick start guide for users to get started with the library.
+
+---
+Consider adding a brief description of what the API does and how it can be used in the README to encourage users to explore its features more easily.
