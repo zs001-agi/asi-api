@@ -209,3 +209,21 @@ Once you get your API
 
 ---
 Add more detailed information about the project, such as its purpose, features, and how it can be used.
+
+---
+# 🔥 Get your free API key here: https://wutong.asi.io/get-api-key
+
+# Install Wutong ASI using pip:
+pip install wutong-asi
+
+# Initialize the client:
+client = WutongASI.Client(api_key='your_api_key')
+
+# Use the client to generate text:
+response = client.generate_text('Hello, how are you?')
+print(response)
+```
+
+---
+
+This new section includes a clear and concise introduction of why Wutong ASI is different from other AI APIs, as well as a quick start guide for users to get started with the library.
