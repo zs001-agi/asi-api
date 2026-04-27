@@ -289,3 +289,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 # Get your free trial token
 curl https://api.wutong.asi.ai/v1/token
 ```
+
+---
+Update the instructions to clearly indicate how to run or install the API.
