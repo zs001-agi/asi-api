@@ -292,3 +292,27 @@ curl https://api.wutong.asi.ai/v1/token
 
 ---
 Update the instructions to clearly indicate how to run or install the API.
+
+---
+# 🚀 Quick Start
+
+To get started with Wutong ASI, follow these steps:
+
+1. **Install the CLI**: Use pip to install the Wutong CLI:
+   ```bash
+   pip install wutongcli
+   ```
+
+2. **Initialize a project**: Create a new project directory and initialize it using the CLI:
+   ```bash
+   wutong init my-project
+   ```
+
+3. **Train your model**: Run the training command for your desired model:
+   ```bash
+   wutong train my-model --dataset my-dataset
+   ```
+
+4. **Deploy your model**: Once trained, deploy your model to a server using the CLI:
+   ```bash
+   wut
