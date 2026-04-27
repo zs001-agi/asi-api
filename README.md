@@ -267,3 +267,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```
 
 For more details and usage instructions, visit our [official documentation](https://docs.wutongai.com).
+
+---
+Add an installation guide and a brief description of the purpose of each package within the `package.json`.
