@@ -1,3 +1,3 @@
 
 ## 2026-04-28
-asi-api update: Added new example scripts, fixed several bugs, and enhanced documentation for better usability.
+asi-api update includes new example implementations, several bug fixes, and enhanced documentation to improve user experience and usability.
