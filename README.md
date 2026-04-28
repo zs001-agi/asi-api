@@ -388,3 +388,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ---
 
 This
+
+---
+Add a brief description of the project and its purpose to the README.
