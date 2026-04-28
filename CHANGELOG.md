@@ -1,6 +1,3 @@
 
 ## 2026-04-28
-asi-api v1.2.0:
-- Added new example scripts to demonstrate common use cases.
-- Fixed several bugs reported by users.
-- Improved documentation for better clarity and ease of use.
+asi-api update: Added new example scripts, fixed several bugs, and enhanced documentation for better usability.
