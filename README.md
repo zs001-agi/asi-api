@@ -434,3 +434,6 @@ Add installation instructions for the project.
 # Download and install Wutong ASI CLI.
 # Example: curl https://github.com/wutong-asi/cli/releases/download/v0.1.0/wutong-cli-linux-amd64.tar.gz | tar -xzvf -
 ```
+
+---
+Add a brief description of the API and its purpose in the README.md file.
