@@ -316,3 +316,6 @@ To get started with Wutong ASI, follow these steps:
 4. **Deploy your model**: Once trained, deploy your model to a server using the CLI:
    ```bash
    wut
+
+---
+Use clear and engaging language to describe the project's purpose and functionality.
