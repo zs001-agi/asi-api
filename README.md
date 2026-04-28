@@ -365,3 +365,6 @@ pip install wutong_asi
 
 # Run your first query
 import wutong
+
+---
+Add an example usage section in the README to demonstrate how the API can be used for data retrieval and manipulation.
