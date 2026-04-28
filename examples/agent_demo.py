@@ -2,14 +2,10 @@
 import requests
 
 # Define the base URL for the Wutong ASI API
-base_url = "https://api.wutong.com/v1"
+base_url = "https://api.wutongasi.com"
 
-# Function to get a list of available local models
-def get_local_models():
-    url = f"{base_url}/models"
-    response = requests.get(url)
-    return response.json()
+# Example request to get a list of available models
+response = requests.get(f"{base_url}/models")
 
-# Example usage: Fetch and print the list of local models
-local_models = get_local_models()
-print(local_models)
+# Print the response text
+print(response.text)
