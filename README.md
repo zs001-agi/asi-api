@@ -423,3 +423,6 @@ print(response)
 ---
 
 This new section introduces the key benefits of using Wutong ASI and provides a quick start guide to get you up and running
+
+---
+Add installation instructions for the project.
