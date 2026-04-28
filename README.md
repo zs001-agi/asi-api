@@ -426,3 +426,11 @@ This new section introduces the key benefits of using Wutong ASI and provides a 
 
 ---
 Add installation instructions for the project.
+
+---
+# 🚀 Quick Start
+
+```bash
+# Download and install Wutong ASI CLI.
+# Example: curl https://github.com/wutong-asi/cli/releases/download/v0.1.0/wutong-cli-linux-amd64.tar.gz | tar -xzvf -
+```
