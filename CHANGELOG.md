@@ -1,5 +1,3 @@
 
 ## 2026-04-28
-* Added new examples to demonstrate various use cases.
-* Fixed several bugs reported in previous versions.
-* Enhanced documentation for better understanding and ease of use.
+asi-api: Added new examples, fixed bugs, and enhanced documentation.
