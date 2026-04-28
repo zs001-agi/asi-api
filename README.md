@@ -391,3 +391,35 @@ This
 
 ---
 Add a brief description of the project and its purpose to the README.
+
+---
+# 🚀 Quick Start
+
+First, install Wutong ASI using pip:
+
+```bash
+pip install wutong-asi
+```
+
+Then, run the API server:
+
+```bash
+wutong-asi start
+```
+
+Finally, use the API to interact with our models:
+
+```python
+import wutong_asi
+
+# Get a model instance
+model = wutong_asi.Model('gpt-3.5')
+
+# Generate text
+response = model.generate('Hello, Wutong ASI! How can I assist you today?')
+print(response)
+```
+
+---
+
+This new section introduces the key benefits of using Wutong ASI and provides a quick start guide to get you up and running
