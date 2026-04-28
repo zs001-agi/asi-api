@@ -10,6 +10,7 @@ openai.api_key = 'your-openai-api-key'
 # Define a route for the API service
 @app.route('/evolve', methods=['POST'])
 def evolve_ai():
+    """Generates a new AI model based on existing ones."""
     # Retrieve input data from POST request
     user_input = request.json.get('input')
     
