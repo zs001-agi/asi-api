@@ -342,3 +342,26 @@ curl https://api.wutongasi.io/v1/complete \
 
 ---
 Consider adding a brief description of what the project does, its main features, and how to get started in theREADME file.
+
+---
+# API Usage Guide
+
+---
+
+## ✨ Why Wutong ASI?
+
+Most AI APIs charge a monthly subscription — you pay even when you don't use it. Wutong ASI is different:
+
+- **Pay per token** — only for what you consume
+- **Self-evolving** — models improve over time via genetic algorithms
+- **Locally hosted** — low latency, no data leaves our server
+- **5 models** — from lightweight 1.3B to 7B, pick the right tool for the job
+
+## 🚀 Quick Start
+
+```bash
+# Install Wutong ASI using pip
+pip install wutong_asi
+
+# Run your first query
+import wutong
