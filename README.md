@@ -578,3 +578,21 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 
 ---
 Add a brief description of the project at the top of the README file to provide context and help users quickly understand what it does.
+
+---
+# 💾 Download and install Wutong ASI:
+# wget https://github.com/wutong-asi/asi/releases/download/v0.1.0/asi_linux_amd64.tar.gz
+# tar -xzvf asi_linux_amd64.tar.gz
+# cd asi
+
+# Start the server in the background:
+# ./asi-server &
+```
+
+## 📚 Documentation
+
+For more details and how-to guides, visit our [official website](https://www.wutong-asi.com).
+
+## 👍 Support & Feedback
+
+We welcome your feedback! You can reach out to us at [support@wutong-asi.com](mailto:support@wutong-asi.com) or through our [
