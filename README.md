@@ -557,3 +557,21 @@ If you have any questions or
 ---
 markdown
 Add a brief description of the API in the README to attract more users.
+
+---
+# 🚀 Quick Start
+
+## Why Wutong ASI?
+
+Most AI APIs charge a monthly subscription — you pay even when you don't use it. Wutong ASI is different:
+
+- **Pay per token** — only for what you consume
+- **Self-evolving** — models improve over time via genetic algorithms
+- **Locally hosted** — low latency, no data leaves our server
+- **5 models** — from lightweight 1.3B to 7B, pick the right tool for the job
+
+## 🚀 Quick Start
+
+```bash
+# Get your free API key and follow the instructions in the README file.
+```
