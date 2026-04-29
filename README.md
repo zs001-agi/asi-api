@@ -458,3 +458,24 @@ This README suggests improving it by highlighting why Wutong ASI is different fr
 
 ---
 "Integrate detailed documentation on how to set up and use the API endpoints."
+
+---
+# 🚀 Quick Start
+To get started with Wutong ASI, you'll need to follow these steps:
+
+1. **Install the library**: You can install Wutong ASI using pip:
+    ```bash
+    pip install wutong-asi
+    ```
+
+2. **Create an instance of the API client**: Use the following code to create an instance of the API client:
+    ```python
+    from wutong_asi import AiClient
+
+    api = AiClient()
+    ```
+
+3. **Run a task**: Once you have the client, you can run tasks using the `run_task` method:
+    ```python
+    response = api.run_task('your_task_name')
+    print(response
