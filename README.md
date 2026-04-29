@@ -519,3 +519,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 
 # Install Wutong ASI CLI:
 pip install wutong-asi-cli
+
+---
+Consider adding detailed installation instructions to the README for clarity and ease of setup.
