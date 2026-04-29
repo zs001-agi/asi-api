@@ -522,3 +522,34 @@ pip install wutong-asi-cli
 
 ---
 Consider adding detailed installation instructions to the README for clarity and ease of setup.
+
+---
+---
+
+## 📖 Documentation
+
+For detailed usage and advanced features, please refer to our [official documentation](https://docs.wutongasi.com).
+
+---
+
+## 🌟 Contribution Guidelines
+
+We welcome contributions from the community! Check out our [contribution guidelines](.github/CONTRIBUTING.md) for more information.
+
+---
+
+## 📢 Newsletter
+
+Join our mailing list to stay updated on new releases, API changes, and other important announcements.
+
+---
+
+## 🚀 About Us
+
+Wutong ASI was created by [your name], a team of AI enthusiasts passionate about creating innovative solutions. We are dedicated to making AI accessible and affordable for everyone.
+
+---
+
+## 📧 Contact Us
+
+If you have any questions or
