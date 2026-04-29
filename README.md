@@ -498,3 +498,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```bash
 # Get your free token from [Wutong ASI](https://wutongasi.com/signup)
 ```
+
+---
+Add an example of how to install the library in your project.
