@@ -575,3 +575,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```bash
 # Get your free API key and follow the instructions in the README file.
 ```
+
+---
+Add a brief description of the project at the top of the README file to provide context and help users quickly understand what it does.
