@@ -657,3 +657,6 @@ Check out the model statistics to see how different models compare:
     {
       "name": "7B",
       "description":
+
+---
+Add an example of how to use the API in the README to make it easy for developers to understand how to get started.
