@@ -24,6 +24,7 @@ def process_data(data):
 
 # Main function to demonstrate the self-evolving AI API service
 def main():
+    """This is the main function of the program. It initializes variables, performs calculations, and prints output."""
     # Request data from the AI API
     data = request_data()
     if data is not None:
