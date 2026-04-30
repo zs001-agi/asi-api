@@ -722,3 +722,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 
 # Install Wutong ASI
 npm install wutong-asi
+# Improve the README
+
+The README should include more detailed information about the project, such as installation instructions, usage guide, and a brief description of what the API does. This will help other developers understand how to get started with the project.
