@@ -2,39 +2,49 @@
 # Import necessary libraries
 import requests
 
-def call_ai_service(prompt):
+import requests
+
+def generate_ai_prompt(prompt):
     """
-    Function to call the self-evolving AI API service.
-    
+    Generate the AI prompt.
+
     Args:
     prompt (str): The input string for the AI model.
-    
+
     Returns:
-    str: The output from the AI model.
+    str: The AI prompt.
     """
-    # URL of the AI API endpoint
-    url = "https://api.selfevolvingai.com/generate"
-    
-    # Headers to be included in the request
-    headers = {
+    return {"prompt": prompt}
+
+def create_headers():
+    """
+    Create headers for the API request.
+
+    Returns:
+    dict: Headers to be included in the request.
+    """
+    return {
         "Content-Type": "application/json",
         "Authorization": "Bearer YOUR_API_KEY"  # Replace with your actual API key
     }
-    
-    # Data payload containing the prompt
-    data = {
-        "prompt": prompt,
-        "model": "latest_model"  # Assuming latest model is used for self-evolution
-    }
-    
-    # Sending a POST request to the AI service
+
+def call_ai_service(prompt):
+    """
+    Function to call the self-evolving AI API service.
+
+    Args:
+    prompt (str): The input string for the AI model.
+
+    Returns:
+    str: The output from the AI model.
+    """
+    url = "https://api.selfevolvingai.com/generate"
+    headers = create_headers()
+    data = generate_ai_prompt(prompt)
+
     response = requests.post(url, headers=headers, json=data)
-    
-    # Checking if the request was successful
-    if response.status_code == 200:
-        return response.json()['output']
-    else:
-        return "Failed to get response from AI service"
+    response.raise_for_status()  # Raises an HTTPError for bad responses
+    return response.json().get("output")
 
 # Example usage of the function
 if __name__ == "__main__":
