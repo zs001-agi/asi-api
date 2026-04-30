@@ -725,3 +725,18 @@ npm install wutong-asi
 # Improve the README
 
 The README should include more detailed information about the project, such as installation instructions, usage guide, and a brief description of what the API does. This will help other developers understand how to get started with the project.
+
+---
+# 🚀 Quick Start
+
+### Install Wutong ASI
+
+To get started with Wutong ASI, you'll need to install it. Follow these steps:
+
+1. **Download the latest release**: Visit the [GitHub releases page](https://github.com/wutong-asi/wutong-asi/releases) and download the appropriate package for your operating system.
+
+2. **Extract the downloaded file**: Once you have downloaded the file, extract it to a location of your choice.
+
+3. **Run the installation script**: Navigate to the extracted directory and run the installation script using `./install.sh`.
+
+4. **Verify the installation**: After the installation is complete, verify that Wutong ASI is running correctly by checking
