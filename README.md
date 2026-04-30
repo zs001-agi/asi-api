@@ -701,3 +701,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ## Join Us on Discord
 
 Join us on [Discord](https://discord
+
+---
+Add a brief description of the API in your README to help users understand what to expect when using the project.
