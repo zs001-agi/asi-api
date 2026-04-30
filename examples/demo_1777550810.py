@@ -8,6 +8,7 @@ API_URL = "https://api.example.ai/self-evolve"
 
 # Function to request data from the AI API
 def request_data():
+    """Request data from an API using an HTTP GET request and return the response in JSON format."""
     # Send a GET request to the API
     response = requests.get(API_URL)
     # Check if the request was successful
