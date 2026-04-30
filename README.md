@@ -676,3 +676,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```bash
 # Get your free API token here: https://wutong.asi.ai/get-token
 ```
+
+---
+Make the README more welcoming and engaging for new contributors by adding a brief description of the project and some key features in a clear and simple manner.
