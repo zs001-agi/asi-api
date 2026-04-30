@@ -3,19 +3,22 @@
 import requests
 
 # Define the URL of the Wutong ASI API
-url = "http://example.com/api/v1/models"
+url = "https://api.example.com/asi"
 
-# Make a GET request to retrieve all available models
-response = requests.get(url)
+# Define the headers for the request
+headers = {
+    "Authorization": "Bearer your_api_key",
+    "Content-Type": "application/json"
+}
 
-# Check if the request was successful
-if response.status_code == 200:
-    # Parse the JSON response
-    models = response.json()
-    
-    # Print the list of available models
-    for model in models:
-        print(model['name'])
-else:
-    # Print an error message if the request failed
-    print(f"Failed to retrieve models. Status code: {response.status_code}")
+# Define the payload for the request
+payload = {
+    "model_id": "local_model_1",
+    "input_text": "Hello, how are you?"
+}
+
+# Send a POST request to the Wutong ASI API
+response = requests.post(url, headers=headers, json=payload)
+
+# Print the response from the Wutong ASI API
+print(response.json())
