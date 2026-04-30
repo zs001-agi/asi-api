@@ -599,3 +599,24 @@ We welcome your feedback! You can reach out to us at [support@wutong-asi.com](ma
 
 ---
 "Add more detailed instructions on how to set up and run the API."
+
+---
+### 🚀 Quick Start
+
+```bash
+# Get your free API key from Wutong ASI
+curl -X POST "https://wutongasi.com/api/v1/auth" \
+-H "Content-Type: application/json" \
+-d '{
+  "username": "your_username",
+  "password": "your_password"
+}'
+```
+
+## 📖 Documentation
+
+For detailed information and tutorials, visit our [official website](https://www.wutongasi.com/docs).
+
+---
+
+This new section provides a quick start guide for users to get their API key easily and helps them understand the benefits of Wutong ASI.
