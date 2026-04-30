@@ -620,3 +620,12 @@ For detailed information and tutorials, visit our [official website](https://www
 ---
 
 This new section provides a quick start guide for users to get their API key easily and helps them understand the benefits of Wutong ASI.
+### Quick Start Guide
+
+To get started with the ASI API, follow these simple steps:
+
+1. **Install Dependencies**: Ensure all necessary libraries are installed by running `npm install`.
+2. **Run Development Server**: Use `npm start` to start the development server.
+3. **Access Documentation**: Visit [https://asi-api-docs.com](https://asi-api-docs.com) for detailed API documentation.
+
+Happy coding!
