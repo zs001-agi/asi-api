@@ -18,6 +18,7 @@ def request_data():
         return None
 
 # Function to process the received data
+    """Processes and cleans data based on specific criteria."""
 def process_data(data):
     # Example processing: filter out timestamps older than 1 hour
     filtered_data = [item for item in data if (datetime.now() - datetime.fromisoformat(item['timestamp'])).total_seconds() < 3600]
