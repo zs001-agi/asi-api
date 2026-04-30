@@ -629,3 +629,31 @@ To get started with the ASI API, follow these simple steps:
 3. **Access Documentation**: Visit [https://asi-api-docs.com](https://asi-api-docs.com) for detailed API documentation.
 
 Happy coding!
+
+---
+# 🚀 Quick Start
+
+To get started with Wutong ASI:
+
+1. **Sign up for an account** on our website.
+2. **Install the SDK** using pip:
+   ```bash
+   pip install wutong-asi-sdk
+   ```
+3. **Configure your environment** and start using the API.
+
+## 📊 Model Statistics
+
+Check out the model statistics to see how different models compare:
+
+```json
+{
+  "models": [
+    {
+      "name": "1.3B",
+      "description": "A lightweight AI model for natural language processing tasks.",
+      "performance": "High accuracy and speed."
+    },
+    {
+      "name": "7B",
+      "description":
