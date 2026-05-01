@@ -36,6 +36,7 @@ def predict():
 # Function to allow retraining of the model with new data
 @app.route('/retrain', methods=['POST'])
 def retrain():
+    """Retrain the model based on new data."""
     # Extract training data from the request
     json_data = request.get_json()
     train_data = json_data['train_data']
