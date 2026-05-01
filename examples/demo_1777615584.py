@@ -22,6 +22,7 @@ model.load_weights('path_to_pretrained_model')
 
 @app.route('/predict', methods=['POST'])
 def predict():
+    """Predict future outcomes based on historical data."""
     # Extract data from the request
     json_data = request.get_json()
     input_data = json_data['input_data']
