@@ -743,3 +743,28 @@ To get started with Wutong ASI, you'll need to install it. Follow these steps:
 
 ---
 Add a brief description of the API in the README.
+
+---
+# 🚀 Quick Start
+
+To get started with Wutong ASI, follow these steps:
+
+1. **Install the SDK**: Install the Wutong ASI SDK using pip:
+   ```bash
+   pip install wutong-asi-sdk
+   ```
+
+2. **Create a client instance**:
+   ```python
+   from wutong_asi_sdk import WutongASI
+
+   client = WutongASI(api_key='your_api_key')
+   ```
+
+3. **Make a request**: Use the client to make API calls:
+   ```python
+   response = client.get_model_info()
+   print(response)
+   ```
+
+4. **Enjoy your self-evolving AI powered by Wutong ASI
