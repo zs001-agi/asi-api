@@ -872,3 +872,6 @@ pip install wutong-asi
    print(subs)
 
    # Create a new subscription
+
+---
+Add examples in the README to demonstrate how the API works.
