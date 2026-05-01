@@ -819,3 +819,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 # Get your free API key from Wutong ASI website.
 # Then run:
 curl -X POST "https://api.wutong.asi.com/v1
+
+---
+Add a brief description of the project and its purpose in the README to help potential users understand what they can expect from it.
