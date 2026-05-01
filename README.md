@@ -768,3 +768,6 @@ To get started with Wutong ASI, follow these steps:
    ```
 
 4. **Enjoy your self-evolving AI powered by Wutong ASI
+
+---
+Add a brief description of the API service to make it clearer for potential users.
