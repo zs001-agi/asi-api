@@ -1,48 +1,56 @@
 # API Documentation Update
 
-## Overview
-This document outlines recent updates and additions to our self-evolving AI service, designed to enhance its functionality and user experience.
+## Endpoint Descriptions
 
-## Endpoint Updates
+### /predict
 
-### 1. Enhanced Text Analysis Endpoint
+**Description**: Predicts the next best action based on historical data.
 
-**Description**: The new endpoint now offers advanced text analysis capabilities including sentiment detection, entity recognition, and keyword extraction with improved accuracy.
+- **Method**: POST
+- **Parameters**:
+  - `data`: JSON object containing historical user actions.
+- **Returns**: JSON object with predicted next action.
 
-**Endpoint URL**: `/analyze/text`
-
-#### Usage Example
-```bash
-curl -X POST https://api.example.com/analyze/text \
--H "Content-Type: application/json" \
--d '{
-    "text": "Your text here"
-}'
+```json
+{
+  "action": "click_button"
+}
 ```
 
-### 2. Image Recognition Endpoint
+### /train
 
-**Description**: This endpoint enables users to submit images for object recognition, scene detection, and facial analysis.
+**Description**: Trains the AI model on new data.
 
-**Endpoint URL**: `/recognize/image`
+- **Method**: PUT
+- **Parameters**:
+  - `data`: JSON array of training examples.
+- **Returns**: Confirmation message.
 
-#### Usage Example
+```json
+{
+  "message": "Training successful"
+}
+```
+
+## Usage Examples with curl
+
+### Predict Example
+
 ```bash
-curl -X POST https://api.example.com/recognize/image \
--H "Content-Type: image/jpeg" \
---data-binary @path/to/image.jpg
+curl -X POST -H "Content-Type: application/json" -d '{"data": {"user_id": "12345", "actions": ["login", "view_home"]}}' https://api.example.com/predict
+```
+
+### Train Example
+
+```bash
+curl -X PUT -H "Content-Type: application/json" -d '[{"id": "67890", "action": "logout"}, {"id": "12345", "action": "view_profile"}]' https://api.example.com/train
 ```
 
 ## Pricing Table Update
 
-| Feature | Basic Plan | Standard Plan | Premium Plan |
-|---------|------------|---------------|--------------|
-| Text Analysis (Basic) | $10/month | $25/month | $40/month |
-| Advanced Text Analysis | - | - | Included |
-| Image Recognition | $15/month | $30/month | $60/month |
+| Feature | Monthly Fee |
+|---------|-------------|
+| Predict | $10         |
+| Train   | $5          |
 
-For more detailed pricing and subscription options, visit [our pricing page](https://www.example.com/pricing).
-
----
-
-This update should help our users leverage the latest features of our AI service efficiently.
+For more detailed pricing information, please visit our [Pricing Page](https://www.example.com/pricing).
