@@ -845,3 +845,30 @@ This new section introduces
 
 ---
 Consider adding examples of how to interact with the API or include installation instructions if necessary.
+
+---
+# Install Wutong ASI using pip
+pip install wutong-asi
+```
+
+## ⚡ How to Use
+
+1. **Set up your API key**:
+   ```python
+   from wutong_asi import WutongASI
+   asi = WutongASI(api_key="your_api_key")
+   ```
+
+2. **Request a model**:
+   ```python
+   response = asi.request("gpt-4", "Hello, how are you?")
+   print(response)
+   ```
+
+3. **Manage your subscriptions and models**:
+   ```python
+   # List all subscriptions
+   subs = asi.list_subscriptions()
+   print(subs)
+
+   # Create a new subscription
