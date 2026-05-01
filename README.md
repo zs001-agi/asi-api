@@ -842,3 +842,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ---
 
 This new section introduces
+
+---
+Consider adding examples of how to interact with the API or include installation instructions if necessary.
