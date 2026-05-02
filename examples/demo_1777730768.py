@@ -6,38 +6,40 @@ import requests
 prompt = "Write a Python function that calculates the factorial of a number."
 
 # Function to interact with the AI API and get response
-def query_ai_api(prompt):
-    """```python
-# Query data from AI API and return response
-```
+import requests
 
-This docstring provides a brief description of what the `query_ai_api` function does, including its purpose, parameters, and expected output. It should be concise yet informative,"""
-    # Replace 'your-api-endpoint' with actual AI API endpoint
-    api_endpoint = "https://your-api-endpoint"
-    
-    # Set up headers, usually including an authorization token if required
-    headers = {
+def get_api_endpoint():
+    """Return the AI API endpoint."""
+    return "https://your-api-endpoint"
+
+def get_headers():
+    """Set up headers for the API request, including authorization if required."""
+    return {
         "Content-Type": "application/json",
         "Authorization": "Bearer your-access-token"
     }
-    
-    # Payload containing the prompt to be sent to the AI model
-    payload = {
-        "prompt": prompt,
-        "temperature": 0.7,  # Controls randomness of responses
-        "max_tokens": 150   # Maximum number of tokens in the response
-    }
-    
-    # Send a POST request to the API endpoint with headers and payload
-    response = requests.post(api_endpoint, json=payload, headers=headers)
-    
-    # Check if the response status code is OK (200)
-    if response.status_code == 200:
-        # Return the generated text from the API response
-        return response.json().get('choices')[0].get('text').strip()
-    else:
-        # Raise an exception with error message if something went wrong
-        raise Exception(f"Error: {response.status_code} - {response.text}")
+
+def construct_payload(prompt):
+    """Construct the payload to send with the AI API request."""
+    return {"prompt": prompt}
+
+def query_ai_api(prompt):
+    """
+    Query data from AI API and return response.
+
+    Parameters:
+    - prompt (str): The input prompt for the AI model.
+
+    Returns:
+    - dict: The response from the AI API.
+    """
+    api_endpoint = get_api_endpoint()
+    headers = get_headers()
+    payload = construct_payload(prompt)
+
+    response = requests.post(api_endpoint, headers=headers, json=payload)
+    response.raise_for_status()  # Raise an exception for HTTP errors
+    return response.json()
 
 # Call the function and store the AI's response
 ai_response = query_ai_api(prompt)
