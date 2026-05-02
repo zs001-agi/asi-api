@@ -907,3 +907,6 @@ This project provides an API for interacting with the Asian Affairs department d
 
 ---
 **Tip:** Consider adding a brief description of the project's purpose or a simple example to get started.
+
+---
+"Please add more detailed information about the project's purpose and goals."
