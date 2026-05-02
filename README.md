@@ -935,3 +935,21 @@ If you have any questions or need help, feel free to reach out to us at [support
 ### Improve the README
 
 **Note:** Consider adding examples of how to use `asi-api` in your project or showcasing how it can integrate with other services.
+
+---
+# ✨ Why Wutong ASI?
+
+Most AI APIs charge a monthly subscription — you pay even when you don't use it. Wutong ASI is different:
+
+- **Pay per token** — only for what you consume
+- **Self-evolving** — models improve over time via genetic algorithms
+- **Locally hosted** — low latency, no data leaves our server
+- **5 models** — from lightweight 1.3B to 7B, pick the right tool for the job
+
+## 🚀 Quick Start
+
+```bash
+# Get your free Wutong ASI API key by signing up on [Wutong ASI](https://www.wutongasi.io)
+```
+
+#
