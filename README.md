@@ -910,3 +910,25 @@ This project provides an API for interacting with the Asian Affairs department d
 
 ---
 "Please add more detailed information about the project's purpose and goals."
+
+---
+# 🚀 Quick Start
+
+```bash
+# Install the Wutong ASI CLI
+pip install wutong-asi-cli
+
+# Initialize your environment with a new model
+wutong asi init my_model --model-type 1.3B
+
+# Start the API server
+wutong asi start my_model
+```
+
+## 📚 Documentation
+
+For detailed instructions and more information, visit our [documentation site](https://docs.wutong-asi.com).
+
+## ✨ Contact Us
+
+If you have any questions or need help, feel free to reach out to us at [support@wutong-asi.com](mailto:support@wutong-asi.com).
