@@ -953,3 +953,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```
 
 #
+
+---
+Ensure clear instructions on installation and usage.
