@@ -2,36 +2,27 @@
 # Import necessary libraries
 import requests
 
-# Define the URL for the Wutong ASI API
-url = "https://api.wutongasi.com/v1/self-evolving-ai"
+# Define the URL of the Wutong ASI API
+url = "https://api.wutong.com/ai"
 
-# Set up headers with authentication and other required parameters
+# Define headers for the request
 headers = {
-    "Authorization": "Bearer YOUR_API_KEY",
-    "Content-Type": "application/json"
+    "Content-Type": "application/json",
+    "Authorization": "Bearer YOUR_ACCESS_TOKEN"
 }
 
-# Define the data payload for the request
+# Define data payload for the request
 data = {
-    "models": [
-        {
-            "model_id": 1,
-            "name": "Model A",
-            "description": "A high-performance AI model."
-        },
-        {
-            "model_id": 2,
-            "name": "Model B",
-            "description": "A robust AI model for natural language processing."
-        }
-    ]
+    "model_type": "self-evolving",
+    "local_models": ["model1", "model2", "model3", "model4", "model5"],
+    "evolution_rate": 0.5
 }
 
 # Send a POST request to the API
 response = requests.post(url, headers=headers, json=data)
 
-# Check the response status code and print the result
-if response.status_code == 201:
-    print("Self-evolving AI models created successfully:", response.json())
+# Check if the request was successful
+if response.status_code == 200:
+    print("Model evolution initiated successfully")
 else:
-    print("Failed to create self-evolving AI models:", response.status_code, response.text)
+    print(f"Failed to initiate model evolution. Status code: {response.status_code}")
