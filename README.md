@@ -891,3 +891,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```bash
 # Get your free API key here: https://wutongasi.com/keys
 ```
+
+---
+Add a brief description of the API in the README to give potential contributors or users an idea of what the project does.
