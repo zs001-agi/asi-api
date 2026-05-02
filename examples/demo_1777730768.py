@@ -7,6 +7,11 @@ prompt = "Write a Python function that calculates the factorial of a number."
 
 # Function to interact with the AI API and get response
 def query_ai_api(prompt):
+    """```python
+# Query data from AI API and return response
+```
+
+This docstring provides a brief description of what the `query_ai_api` function does, including its purpose, parameters, and expected output. It should be concise yet informative,"""
     # Replace 'your-api-endpoint' with actual AI API endpoint
     api_endpoint = "https://your-api-endpoint"
     
