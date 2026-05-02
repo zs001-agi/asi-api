@@ -904,3 +904,6 @@ Add a brief description of the API in the README to give potential contributors 
 ## Overview
 
 This project provides an API for interacting with the Asian Affairs department data.
+
+---
+**Tip:** Consider adding a brief description of the project's purpose or a simple example to get started.
