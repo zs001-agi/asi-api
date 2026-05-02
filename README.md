@@ -894,3 +894,10 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 
 ---
 Add a brief description of the API in the README to give potential contributors or users an idea of what the project does.
+
+---
+# **Quick Start**
+
+```bash
+# Get your free API key by signing up at https://wutong.asi.com/signup.
+```
