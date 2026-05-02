@@ -1,56 +1,36 @@
-# API Documentation Update
+# API Documentation Update for Self-Evolving AI Service
 
-## Endpoint Descriptions
+## New Endpoints
 
-### /predict
+### 1. Image Recognition Endpoint
+**Description:** Analyzes images to identify objects, faces, and text.
 
-**Description**: Predicts the next best action based on historical data.
+#### Request:
+```curl
+POST /api/v2/image_recognition HTTP/1.1
+Host: ai-service.example.com
+Content-Type: application/json
+Authorization: Bearer YOUR_ACCESS_TOKEN
 
-- **Method**: POST
-- **Parameters**:
-  - `data`: JSON object containing historical user actions.
-- **Returns**: JSON object with predicted next action.
-
-```json
 {
-  "action": "click_button"
+  "image_url": "http://example.com/sample-image.jpg"
 }
 ```
 
-### /train
-
-**Description**: Trains the AI model on new data.
-
-- **Method**: PUT
-- **Parameters**:
-  - `data`: JSON array of training examples.
-- **Returns**: Confirmation message.
-
+#### Response:
 ```json
 {
-  "message": "Training successful"
+  "objects": ["dog", "cat"],
+  "faces": [{"age": 25, "emotion": "happy"}],
+  "text": "Hello world!"
 }
-```
-
-## Usage Examples with curl
-
-### Predict Example
-
-```bash
-curl -X POST -H "Content-Type: application/json" -d '{"data": {"user_id": "12345", "actions": ["login", "view_home"]}}' https://api.example.com/predict
-```
-
-### Train Example
-
-```bash
-curl -X PUT -H "Content-Type: application/json" -d '[{"id": "67890", "action": "logout"}, {"id": "12345", "action": "view_profile"}]' https://api.example.com/train
 ```
 
 ## Pricing Table Update
 
-| Feature | Monthly Fee |
-|---------|-------------|
-| Predict | $10         |
-| Train   | $5          |
+| Feature               | Free Tier (100 requests/month) | Basic ($5/month) | Pro ($20/month) |
+|-----------------------|--------------------------------|------------------|-----------------|
+| Image Recognition     | 10 requests/day                | 100 requests/day   | Unlimited       |
+| Custom Training Models| 2 models per month             | Unlimited        | Unlimited       |
 
-For more detailed pricing information, please visit our [Pricing Page](https://www.example.com/pricing).
+For more details and a complete guide, visit our [API Documentation](https://docs.ai-service.example.com).
