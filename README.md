@@ -975,3 +975,22 @@ curl --location 'https://api.wutongasi.io/v2/token'
 
 ---
 Add a brief description of the project and its purpose to the README.
+
+---
+### 🚀 Quick Start
+
+Get started with Wutong ASI by following these steps:
+
+1. **Sign Up**: Create an account on our website.
+2. **Install API Client**: Use one of our SDKs to interact with the API.
+3. **Request Tokens**: Generate tokens for your applications.
+
+## 💡 Features
+
+- **5 Models**:
+  - **Lightweight 1.3B**: Perfect for small projects
+  - **7B**: Ideal for large language models and text generation tasks
+  - **24/7 API**: Access the model at any time, even when you're offline
+  - **Pay-per-Token**: Only pay for what you use
+
+- **Self-Evolving**
