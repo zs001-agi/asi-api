@@ -972,3 +972,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```bash
 # Get your free token at https://token.wutongasi.io/ and run:
 curl --location 'https://api.wutongasi.io/v2/token'
+
+---
+Add a brief description of the project and its purpose to the README.
