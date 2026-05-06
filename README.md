@@ -997,3 +997,6 @@ Get started with Wutong ASI by following these steps:
 
 ---
 **Documentation and Examples**: Add comprehensive documentation and examples to the README to make it easy for users to understand how to use your API.
+
+---
+Add screenshots and step-by-step instructions for users to understand how to use the API.
