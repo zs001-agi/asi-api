@@ -1022,3 +1022,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ## 🎉 What's Next?
 
 Check out our [blog](https://
+
+---
+Add an example to showcase how the API can be used.
