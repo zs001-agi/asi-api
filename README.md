@@ -1028,3 +1028,25 @@ Add an example to showcase how the API can be used.
 
 ---
 Enhance the readability and clarity of the documentation section by adding bullet points to explain key features or functionalities of the API.
+
+---
+# **Why Wutong ASI?**
+
+Most AI APIs charge a monthly subscription — you pay even when you don't use it. Wutong ASI is different:
+
+- **Pay per token** — only for what you consume
+- **Self-evolving** — models improve over time via genetic algorithms
+- **Locally hosted** — low latency, no data leaves our server
+- **5 models** — from lightweight 1.3B to 7B, pick the right tool for the job
+
+## 🚀 Quick Start
+
+```bash
+# Get your free token using Wutong CLI
+```
+
+---
+
+## **What's Next?**
+
+- Check out the [GitHub repository](https://github.com/w
