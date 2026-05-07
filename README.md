@@ -1050,3 +1050,7 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ## **What's Next?**
 
 - Check out the [GitHub repository](https://github.com/w
+
+---
+markdown
+# Update Readme with Project Description and Usage Guide
