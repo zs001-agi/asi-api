@@ -1130,3 +1130,21 @@ This will give you a free API key that you can use immediately in
 
 ---
 Add a brief description of what the API does and its main features in the README.
+
+---
+# Get your free API key [here](https://your-api-key-here.com)
+
+# Install the Wutong ASI client library
+pip install wutongasi
+
+# Use the client to interact with the AI models
+from wutongasi import Client
+
+client = Client('YOUR_API_KEY')
+response = client.get_response('Hello, world!')
+print(response)
+```
+
+---
+
+Feel free to add more details or examples to make your README even more engaging!
