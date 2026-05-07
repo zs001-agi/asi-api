@@ -1083,3 +1083,6 @@ const client = new WutongASI({
 ```javascript
 client.generateText('Hello, how are you?')
   .then(response => {
+
+---
+Consider adding instructions on how to install the project dependencies and run it locally.
