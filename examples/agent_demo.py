@@ -2,29 +2,16 @@
 import requests
 
 # Define the base URL for the Wutong ASI API
-base_url = "https://api.wutongasi.com/v1"
+base_url = "https://api.example.com/wutong-asi"
 
-# Define the endpoint for self-evolving AI
-endpoint = "/self_evolution"
+# Function to get a list of available local models
+def get_local_models():
+    response = requests.get(f"{base_url}/models")
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return f"Failed to retrieve models: {response.status_code}"
 
-# Define the headers for the request
-headers = {
-    "Content-Type": "application/json",
-    "Authorization": "Bearer YOUR_API_KEY"
-}
-
-# Define the data payload for the request
-data = {
-    "model1": "text-generation",
-    "model2": "image-segmentation",
-    "model3": "object-detection",
-    "model4": "language-modeling",
-    "model5": "question-answering"
-}
-
-# Send a POST request to the Wutong ASI API
-response = requests.post(base_url + endpoint, headers=headers, json=data)
-
-# Print the response status code and content
-print(response.status_code)
-print(response.json())
+# Example usage
+local_models = get_local_models()
+print(local_models)
