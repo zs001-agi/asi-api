@@ -1054,3 +1054,32 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ---
 markdown
 # Update Readme with Project Description and Usage Guide
+
+---
+# Get started with Wutong ASI! Here's how it works:
+
+### Step 1: Install the SDK
+You can install the SDK via npm or yarn:
+
+```bash
+npm install wutong-asi
+```
+
+or
+
+```bash
+yarn add wutong-asi
+```
+
+### Step 2: Initialize the API Client
+```javascript
+const client = new WutongASI({
+  apiKey: 'YOUR_API_KEY',
+  model: '1.3B', // Choose your desired model from the list above
+});
+```
+
+### Step 3: Use the API to interact with the models
+```javascript
+client.generateText('Hello, how are you?')
+  .then(response => {
