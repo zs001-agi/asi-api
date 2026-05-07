@@ -1127,3 +1127,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```
 
 This will give you a free API key that you can use immediately in
+
+---
+Add a brief description of what the API does and its main features in the README.
