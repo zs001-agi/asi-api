@@ -1025,3 +1025,6 @@ Check out our [blog](https://
 
 ---
 Add an example to showcase how the API can be used.
+
+---
+Enhance the readability and clarity of the documentation section by adding bullet points to explain key features or functionalities of the API.
