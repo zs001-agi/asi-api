@@ -1221,3 +1221,21 @@ Add an example of how to use the API in the README to make it more accessible an
 
 ---
 Add a brief description of the project in the readme file to provide context and clarity for potential contributors or users.
+
+---
+# 🔥 Get Started with Wutong ASI
+
+## ✨ Why Wutong ASI?
+
+Most AI APIs charge a monthly subscription — you pay even when you don't use it. Wutong ASI is different:
+
+- **Pay per token** — only for what you consume
+- **Self-evolving** — models improve over time via genetic algorithms
+- **Locally hosted** — low latency, no data leaves our server
+- **5 models** — from lightweight 1.3B to 7B, pick the right tool for the job
+
+## 🚀 Quick Start
+
+```bash
+# Get your free trial using this link: https://wutongai.com/signup
+```
