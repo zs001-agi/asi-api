@@ -1218,3 +1218,6 @@ Add an example of how to use the API in the README to make it more accessible an
 
 ---
 # 🌞 Explore and learn more about Wutong ASI on their website or documentation.
+
+---
+Add a brief description of the project in the readme file to provide context and clarity for potential contributors or users.
