@@ -1189,3 +1189,23 @@ This README has been updated with a short
 
 ---
 Make sure to include installation instructions and example usage at the beginning of the README file.
+
+---
+## 🚀 Quick Start
+
+To get started with Wutong ASI, follow these steps:
+
+1. **Install Wutong ASI**: Download and install the appropriate version of Wutong ASI for your environment.
+2. **Set up API Access**: Obtain an API key from the Wutong ASI dashboard.
+3. **Run Your Application**: Use the API to interact with Wutong ASI in your application.
+
+```bash
+# Example usage
+curl -X POST "https://your-api-endpoint.com/generate" \
+-H "Authorization: Bearer YOUR_API_KEY" \
+-d 'prompt=Write a short story about a unicorn'
+```
+
+## 🌟 Features
+
+- **Model Evolution**: W
