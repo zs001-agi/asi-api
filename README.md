@@ -1168,3 +1168,21 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```
 
 For detailed installation and usage instructions, refer to our [GitHub repository](https://
+
+---
+# ✨ Why Wutong ASI?
+
+Most AI APIs charge a monthly subscription — you pay even when you don't use it. Wutong ASI is different:
+
+- **Pay per token** — only for what you consume
+- **Self-evolving** — models improve over time via genetic algorithms
+- **Locally hosted** — low latency, no data leaves our server
+- **5 models** — from lightweight 1.3B to 7B, pick the right tool for the job
+
+## 🚀 Quick Start
+
+```bash
+# Get your free API key or create one here: https://www.wutongasi.com/api/get-api-key
+```
+
+This README has been updated with a short
