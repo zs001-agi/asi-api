@@ -1239,3 +1239,30 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```bash
 # Get your free trial using this link: https://wutongai.com/signup
 ```
+
+---
+# 🚀 Quick Start
+
+### Getting Started
+
+```bash
+# Install Wutong ASI CLI
+pip install wutong-asi-cli
+
+# Initialize a new project
+wutong init my_project
+
+# Navigate into the project directory
+cd my_project
+
+# Deploy your models
+wutong deploy
+```
+
+## 📚 Documentation
+
+For more detailed information on how to use Wutong ASI, check out our [official documentation](https://docs.wutongasi.io).
+
+## 💬 Community and Support
+
+Join our community on [Discord](https://discord.gg/YOUR_DISCORD_INVITE_LINK) for discussions and support.
