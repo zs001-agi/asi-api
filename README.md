@@ -1318,3 +1318,25 @@ This section provides a simple example of how to get started with Wutong ASI API
 
 ---
 Add a brief description of the API's main features and how it can be used.
+
+---
+# Get your API key and secret from Wutong AI dashboard
+
+# Install the Wutong ASI client library
+pip install wutong-asi
+
+# Import the client library in your Python script
+from wutong_asi import Client
+
+# Initialize the client with your API key and secret
+client = Client('your_api_key', 'your_api_secret')
+
+# Use the client to interact with Wutong ASI services
+response = client.generate_text('Hello, how are you?')
+print(response)
+```
+
+## 🌟 How it Works
+
+- **Genetic Algorithms**: Models evolve over time based on their performance and usage patterns.
+- **Local Storage**: Data stays within our server to ensure low latency and privacy
