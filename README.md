@@ -1340,3 +1340,24 @@ print(response)
 
 - **Genetic Algorithms**: Models evolve over time based on their performance and usage patterns.
 - **Local Storage**: Data stays within our server to ensure low latency and privacy
+### **Add Installation Instructions**  
+To get started with the `asi-api`, ensure you have Node.js and npm installed on your system. Clone the repository and navigate to the directory:
+
+```bash
+git clone https://github.com/username/asi-api.git
+cd asi-api
+```
+
+Install dependencies using npm:
+
+```bash
+npm install
+```
+
+Now you can run the API server by executing:
+
+```bash
+npm start
+```
+
+This simple improvement will help new contributors and developers understand how to set up the project easily.
