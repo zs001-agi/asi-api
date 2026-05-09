@@ -1361,3 +1361,6 @@ npm start
 ```
 
 This simple improvement will help new contributors and developers understand how to set up the project easily.
+
+---
+# Explore Wutong ASI now! Get started with just a few commands.
