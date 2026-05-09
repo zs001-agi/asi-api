@@ -1295,3 +1295,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ---
 
 ## 📖 Documentation
+
+---
+Add a brief description of the project and its purpose in the README.
