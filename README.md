@@ -1364,3 +1364,6 @@ This simple improvement will help new contributors and developers understand how
 
 ---
 # Explore Wutong ASI now! Get started with just a few commands.
+
+---
+**Make the main features more prominent in the first section.**
