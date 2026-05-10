@@ -1381,3 +1381,4 @@ This simple improvement will help new contributors and developers understand how
 ---
 
 This new section text provides users with a clear and concise way to get started using the Wutong ASI API, emphasizing the benefits of pay-per-token pricing, self-evolutionary models, and local hosting.
+# Add a screenshot and brief description of the API to make it more appealing to potential users.
