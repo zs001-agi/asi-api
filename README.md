@@ -1370,3 +1370,14 @@ This simple improvement will help new contributors and developers understand how
 
 ---
 # Explore our API documentation at [https://wutongasi.com/docs](https://wutongasi.com/docs)
+
+---
+# 🚀 Quick Start
+
+```bash
+# Get your free API key and secret from the Wutong ASI dashboard
+```
+
+---
+
+This new section text provides users with a clear and concise way to get started using the Wutong ASI API, emphasizing the benefits of pay-per-token pricing, self-evolutionary models, and local hosting.
