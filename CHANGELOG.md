@@ -1,3 +1,8 @@
 
 ## 2026-05-11
-asi-api update includes new example implementations, several bug fixes, and enhanced documentation to improve usability and functionality.
+asi-api v1.2.0 - Released
+
+Enhancements:
+- Added comprehensive new example applications to demonstrate various use cases.
+- Fixed critical bugs impacting API performance and reliability.
+- Updated documentation with detailed explanations and improved navigation for better user experience.
