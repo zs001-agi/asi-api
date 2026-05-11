@@ -1466,3 +1466,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ---
 
 This section provides a concise introduction and quick start guide, encouraging users to
+
+---
+Consider adding a brief description of the API and how it interacts with the client-side components or services in your README.
