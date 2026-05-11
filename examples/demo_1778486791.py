@@ -6,6 +6,7 @@ from transformers import pipeline
 generator = pipeline('text-generation', model='gpt2')
 
 def evolve_ai(prompt):
+    """Evolves an artificial intelligence model by iteratively updating its parameters based on feedback from a training dataset."""
     # Generate text based on the given prompt using the transformer model
     response = generator(prompt, max_length=150)
     
