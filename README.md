@@ -1418,3 +1418,6 @@ Join the community by [joining our Discord server](https://discord.gg/wutong
 
 ---
 *Add installation instructions.*
+
+---
+# 🌟 Upgrade Your AI Skills Today!
