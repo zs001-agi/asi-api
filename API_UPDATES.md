@@ -1,36 +1,47 @@
-# API Documentation Update for Self-Evolving AI Service
+# API Documentation Update
 
-## New Endpoints
+## Introduction
 
-### 1. Image Recognition Endpoint
-**Description:** Analyzes images to identify objects, faces, and text.
+Welcome to our evolving AI service. This document outlines recent updates and new features.
 
-#### Request:
-```curl
-POST /api/v2/image_recognition HTTP/1.1
-Host: ai-service.example.com
-Content-Type: application/json
-Authorization: Bearer YOUR_ACCESS_TOKEN
+## Updates
 
-{
-  "image_url": "http://example.com/sample-image.jpg"
-}
+### 1. New Endpoint: Sentiment Analysis
+
+**Description**: Analyze the sentiment of text data (positive, negative, neutral).
+
+**Endpoint**: `/api/v2/sentiment`
+
+#### Request Example
+```bash
+curl -X POST "https://api.example.com/api/v2/sentiment" \
+-H "Content-Type: application/json" \
+-d '{"text": "I love this product!"}'
 ```
 
-#### Response:
+#### Response Example
 ```json
 {
-  "objects": ["dog", "cat"],
-  "faces": [{"age": 25, "emotion": "happy"}],
-  "text": "Hello world!"
+  "sentiment": "positive",
+  "confidence": 0.95
 }
 ```
 
-## Pricing Table Update
+### 2. Pricing Table Update
 
-| Feature               | Free Tier (100 requests/month) | Basic ($5/month) | Pro ($20/month) |
-|-----------------------|--------------------------------|------------------|-----------------|
-| Image Recognition     | 10 requests/day                | 100 requests/day   | Unlimited       |
-| Custom Training Models| 2 models per month             | Unlimited        | Unlimited       |
+Our service now offers a tiered pricing model based on API usage.
 
-For more details and a complete guide, visit our [API Documentation](https://docs.ai-service.example.com).
+| Plan | Monthly Limit (Requests) | Cost per Request |
+|------|--------------------------|------------------|
+| Basic | 1,000                    | $0.01            |
+| Pro  | 5,000                    | $0.008           |
+
+For more detailed pricing, please visit our [pricing page](https://example.com/pricing).
+
+## Contact
+
+If you have any questions or need further assistance, please contact our support team at support@example.com.
+
+---
+
+This update enhances your ability to interact with our AI service efficiently and effectively, providing a more seamless experience.
