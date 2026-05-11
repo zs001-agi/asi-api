@@ -1,7 +1,7 @@
 
 ## 2026-05-11
-asi-api v1.2.0 - Released
+asi-api v1.2.3 - Released on [Date]
 
-- Added new examples demonstrating key use cases.
-- Fixed several bugs reported by users.
-- Enhanced documentation for better clarity and usability.
+• Added new examples to enhance usability.
+• Fixed several bugs reported by users.
+• Improved documentation for better understanding and support.
