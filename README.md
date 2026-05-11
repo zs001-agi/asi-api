@@ -1421,3 +1421,6 @@ Join the community by [joining our Discord server](https://discord.gg/wutong
 
 ---
 # 🌟 Upgrade Your AI Skills Today!
+
+---
+"Check out the documentation and examples to understand how to use the API."
