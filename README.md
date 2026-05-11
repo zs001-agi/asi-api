@@ -1487,3 +1487,30 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 
 ---
 Enhance the clarity and functionality of the README to include installation instructions for different environments.
+
+---
+# **Get started with Wutong ASI!**
+
+To get started with Wutong ASI, follow these steps:
+
+- Install Python (version 3.8 or higher)
+- Clone the repository:
+  ```bash
+  git clone https://github.com/yourusername/wutong_asi.git
+  ```
+- Navigate to the project directory:
+  ```bash
+  cd wutong_asi
+  ```
+- Run the setup script:
+  ```bash
+  python setup.py install
+  ```
+
+## 📚 Documentation
+
+For more detailed documentation and examples, check out the [Wiki](https://github.com/yourusername/wutong_asi/wiki).
+
+## 👀 Community
+
+Join our community on [Disc
