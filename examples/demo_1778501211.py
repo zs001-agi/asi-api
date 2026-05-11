@@ -7,6 +7,7 @@ client = SELFAI(api_key='your_api_key', api_secret='your_api_secret')
 
 # Define a function to perform AI tasks
 def ai_task(input_data):
+    """This function takes in an AI task and outputs the result of executing it."""
     # Use the SELFAI client to process the input data
     response = client.process(input_data)
     
