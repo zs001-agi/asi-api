@@ -1382,3 +1382,36 @@ This simple improvement will help new contributors and developers understand how
 
 This new section text provides users with a clear and concise way to get started using the Wutong ASI API, emphasizing the benefits of pay-per-token pricing, self-evolutionary models, and local hosting.
 # Add a screenshot and brief description of the API to make it more appealing to potential users.
+
+---
+### 🔮 How To Use Wutong ASI
+
+First, install the Python package:
+
+```bash
+pip install wutong-asi
+```
+
+Then, create a configuration file `config.ini` with your API key and endpoint:
+
+```ini
+[DEFAULT]
+api_key = your_api_key
+endpoint = https://your_endpoint.com/api/v1
+```
+
+Finally, run your application:
+
+```python
+import wutong_asi
+
+asi = wutong_asi.ASI(config='config.ini')
+response = asi.get_model('gpt-3.5-turbo')
+print(response)
+```
+
+---
+
+## 🌟 Community
+
+Join the community by [joining our Discord server](https://discord.gg/wutong
