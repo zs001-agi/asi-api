@@ -1,3 +1,3 @@
 
 ## 2026-05-12
-asi-api: 📚 Added new example scripts to demonstrate API usage, 🔨 Fixed several bugs reported by users, and 📝 Enhanced documentation for better user experience.
+asi-api update: Added new examples, fixed bugs, and enhanced documentation for better usability.
