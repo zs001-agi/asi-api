@@ -1443,3 +1443,6 @@ https://api.wutongasi.com/token/generate?model=0001
 
 # Initialize your API client:
 import
+
+---
+Add an example of how to use the API in the README.
