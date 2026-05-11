@@ -2,25 +2,25 @@
 import requests
 
 # Define the API endpoint
-url = "https://api.wutong.com/v1/models"
+url = "https://example.com/api/v1/self-evolving-ai"
 
-# Set up headers
+# Define the headers
 headers = {
-    "Authorization": "Bearer YOUR_ACCESS_TOKEN",
-    "Content-Type": "application/json"
+    "Content-Type": "application/json",
+    "Authorization": "Bearer YOUR_ACCESS_TOKEN"
 }
 
-# Define the request payload
-payload = {
-    "model_type": "self-evolving",
-    "local_models": ["model1", "model2", "model3", "model4", "model5"]
+# Define the data payload
+data = {
+    "model_ids": [1, 2, 3],  # List of model IDs to be used
+    "input_text": "Input text for self-evolution"  # Text to generate with the models
 }
 
-# Send a POST request to create or update the model
-response = requests.post(url, headers=headers, json=payload)
+# Send a POST request to the API endpoint
+response = requests.post(url, headers=headers, json=data)
 
-# Check if the request was successful
+# Check the response status code
 if response.status_code == 200:
-    print("Model created successfully")
+    print("Self-evolving AI generated:", response.json())
 else:
-    print(f"Failed to create model: {response.text}")
+    print("Failed to generate self-evolution. Status code:", response.status_code)
