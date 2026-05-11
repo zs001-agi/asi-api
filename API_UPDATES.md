@@ -1,47 +1,48 @@
 # API Documentation Update
 
-## Introduction
+## Overview
+Our AI service continues to evolve, offering new functionalities and improvements. Below are the latest updates to our API documentation.
 
-Welcome to our evolving AI service. This document outlines recent updates and new features.
+## New Endpoints
 
-## Updates
+### Endpoint: `/predict`
 
-### 1. New Endpoint: Sentiment Analysis
+**Description:**  
+This endpoint is designed for real-time predictions based on provided data inputs.
 
-**Description**: Analyze the sentiment of text data (positive, negative, neutral).
+#### Request Parameters:
+- `data`: JSON array of input data (required)
 
-**Endpoint**: `/api/v2/sentiment`
-
-#### Request Example
+#### Example Request:
 ```bash
-curl -X POST "https://api.example.com/api/v2/sentiment" \
+curl -X POST "https://api.example.com/predict" \
 -H "Content-Type: application/json" \
--d '{"text": "I love this product!"}'
+-d '[
+  {
+    "feature1": 0.5,
+    "feature2": 3
+  },
+  {
+    "feature1": 0.7,
+    "feature2": 4
+  }
+]'
 ```
 
-#### Response Example
-```json
-{
-  "sentiment": "positive",
-  "confidence": 0.95
-}
-```
+#### Response:
+- `predictions`: JSON array of predictions
 
-### 2. Pricing Table Update
+## Pricing Table Update
 
-Our service now offers a tiered pricing model based on API usage.
+| Feature                     | Basic Plan ($/month) | Standard Plan ($/month) |
+|-----------------------------|----------------------|----------------------------|
+| Number of Predictions         | 100                  | 500                        |
+| Real-time Prediction Support  | No                   | Yes                          |
+| Custom Model Training         | Limited              | Unrestricted                 |
 
-| Plan | Monthly Limit (Requests) | Cost per Request |
-|------|--------------------------|------------------|
-| Basic | 1,000                    | $0.01            |
-| Pro  | 5,000                    | $0.008           |
+For more detailed pricing and plans, please visit our [Pricing Page](https://www.example.com/pricing).
 
-For more detailed pricing, please visit our [pricing page](https://example.com/pricing).
-
-## Contact
-
-If you have any questions or need further assistance, please contact our support team at support@example.com.
+## Contact Us
+If you have any questions or need further assistance, feel free to contact our support team at support@example.com.
 
 ---
-
-This update enhances your ability to interact with our AI service efficiently and effectively, providing a more seamless experience.
