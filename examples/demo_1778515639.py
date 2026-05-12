@@ -3,6 +3,7 @@
 from self_evolving_ai import SELFAPI
 
 def main():
+    """This is the main function of the program that drives all other functions and processes data."""
     # Initialize the SELFAPI client with your credentials
     api = SELFAPI(api_key='YOUR_API_KEY', api_secret='YOUR_SECRET_KEY')
     
