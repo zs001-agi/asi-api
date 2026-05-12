@@ -8,6 +8,7 @@ translation_model = pipeline('translation_en_to_fr', model='t5-small')
 
 # Function to demonstrate the self-evolution of the API service
 def demonstrate_self_evolution(text):
+    """This function demonstrates self-evolution in a simplified model, showcasing how parameters change over time based on a given rule or algorithm."""
     # Original text in English
     print(f"Original Text: {text}")
     
