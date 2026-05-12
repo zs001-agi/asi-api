@@ -1626,3 +1626,6 @@ Check out the full documentation for more features and usage examples.
 
 ---
 Add a brief description of the API's features and how it can be used in your project.
+
+---
+# Get your free API token by signing up on Wutong ASI's website.
