@@ -1606,3 +1606,4 @@ pip install wutong-asi
 
 # Create an instance of the AI model:
 model = wutong
+# Add a brief description of the API in the readme
