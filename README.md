@@ -1607,3 +1607,19 @@ pip install wutong-asi
 # Create an instance of the AI model:
 model = wutong
 # Add a brief description of the API in the readme
+
+---
+# 🚀 Quick Start
+
+```bash
+# Get your free API key from Wutong AI's website or dashboard.
+```
+
+Now you can start using Wutong ASI to perform tasks like:
+
+- Text generation
+- Question answering
+- Image captioning
+- Translation
+
+Check out the full documentation for more features and usage examples.
