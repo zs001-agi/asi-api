@@ -1560,3 +1560,6 @@ For detailed information, check out the [API documentation](https://docs.wutonga
 ---
 
 This update aims to make the README more user-friendly and informative, highlighting key benefits and quick start instructions.
+
+---
+Add a brief description of the API in the README.
