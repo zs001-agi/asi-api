@@ -1514,3 +1514,6 @@ For more detailed documentation and examples, check out the [Wiki](https://githu
 ## 👀 Community
 
 Join our community on [Disc
+### **Documentation and Examples**
+
+The README could benefit from more detailed instructions on how to use the API, including example requests and responses. This will help new users understand how to integrate the API into their projects quickly.
