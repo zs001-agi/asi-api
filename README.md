@@ -1563,3 +1563,24 @@ This update aims to make the README more user-friendly and informative, highligh
 
 ---
 Add a brief description of the API in the README.
+
+---
+# **🚀 Quick Start**
+
+To get started with Wutong ASI, follow these steps:
+
+1. **Install the SDK**: Install the Wutong ASI SDK using pip.
+2. **Create an Account**: Sign up for a free account on our website.
+3. **Configure Your Application**: Set up your application to use the Wutong ASI API.
+
+Here's how you can install the SDK:
+
+```bash
+pip install wutong-asi
+```
+
+Once installed, configure your application by setting the API key and endpoint in your application code.
+
+## 📖 Documentation
+
+For detailed documentation on how to use Wutong ASI, visit our [official website](https://www.wutong-asi.com
