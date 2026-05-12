@@ -1584,3 +1584,6 @@ Once installed, configure your application by setting the API key and endpoint i
 ## 📖 Documentation
 
 For detailed documentation on how to use Wutong ASI, visit our [official website](https://www.wutong-asi.com
+
+---
+Make the README more detailed and user-friendly by adding instructions on how to set up the project and providing examples of its usage.
