@@ -1542,3 +1542,21 @@ Check out our [
 
 ---
 Add an example of how to use the API in the README for beginners to understand its functionality.
+
+---
+# Download Wutong ASI API and extract it.
+```
+
+## 🔧 Features
+
+- **Real-time predictions** with fast response times
+- **Model selection** based on specific use cases
+- **Automatic updates** for better performance and features
+
+## 📖 Documentation
+
+For detailed information, check out the [API documentation](https://docs.wutongasi.com).
+
+---
+
+This update aims to make the README more user-friendly and informative, highlighting key benefits and quick start instructions.
