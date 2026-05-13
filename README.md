@@ -1652,3 +1652,27 @@ Add a clear description of the project and its purpose in the README.
 
 ---
 Consider adding a brief description of the project or a link to more information in the README.
+
+---
+# 🚀 Quick Start
+
+```bash
+# Get your free API key here: https://wutong.ai/getkey
+```
+
+```python
+import requests
+api_key = 'your_api_key'
+url = "https://api.wutong.ai/v1/generate"
+payload = {
+    'prompt': "Hello, how are you?",
+    'model': 'gpt-3.5-turbo',
+    'temperature': 0.5,
+    'max_tokens': 2048
+}
+response = requests.post(url, headers={"Authorization": f"Bearer {api_key}"}, json=payload)
+print(response.text)
+```
+
+```javascript
+// Using the Wutong ASI API via JavaScript
