@@ -1629,3 +1629,6 @@ Add a brief description of the API's features and how it can be used in your pro
 
 ---
 # Get your free API token by signing up on Wutong ASI's website.
+### Enhance Documentation for API Usage
+
+Add detailed examples and tutorials to guide developers on how to use the API effectively.
