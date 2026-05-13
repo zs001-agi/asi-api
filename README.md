@@ -1632,3 +1632,14 @@ Add a brief description of the API's features and how it can be used in your pro
 ### Enhance Documentation for API Usage
 
 Add detailed examples and tutorials to guide developers on how to use the API effectively.
+
+---
+## 🔥 How To Use Wutong ASI
+
+Start using Wutong ASI in just a few steps:
+
+1. **Install**: Download and install the API client library.
+2. **Set Up**: Configure the API with your token and endpoint.
+3. **Call API**: Send requests to retrieve model outputs.
+
+Check out our [official documentation](https://docs.wutongasi.com) for detailed instructions and examples.
