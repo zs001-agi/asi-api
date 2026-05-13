@@ -1643,3 +1643,6 @@ Start using Wutong ASI in just a few steps:
 3. **Call API**: Send requests to retrieve model outputs.
 
 Check out our [official documentation](https://docs.wutongasi.com) for detailed instructions and examples.
+
+---
+Add a clear description of the project and its purpose in the README.
