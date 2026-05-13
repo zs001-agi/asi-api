@@ -1649,3 +1649,6 @@ Add a clear description of the project and its purpose in the README.
 
 ---
 # Get your API key and access token from the Wutong ASI platform dashboard.
+
+---
+Consider adding a brief description of the project or a link to more information in the README.
