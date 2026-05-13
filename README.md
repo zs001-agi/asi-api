@@ -1713,3 +1713,25 @@ Most AI APIs charge a monthly subscription — you pay even when you don
 ```bash
 # Get your free API key here: https://your-api-key-url.com
 ```
+# Project: asi-api
+
+## Overview
+
+This is the official API for interacting with the Asia Airlines Company. It provides endpoints to manage various aspects of the company's operations. The documentation and examples are available on our website or through the API reference.
+
+## Features
+
+- **User Management**: Create, read, update, and delete user accounts.
+- **Flight Data**: Retrieve flight information and schedules.
+- **Order Tracking**: Manage and track flights and reservations.
+- **Company Policies**: Access details about company policies such as cancellation rules and terms of service.
+
+### Getting Started
+
+1. **Installation**:
+   ```bash
+   pip install asi-api
+   ```
+
+2. **Configuration**:
+   Create a `.env` file with your API
