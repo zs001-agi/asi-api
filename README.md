@@ -1706,3 +1706,10 @@ Most AI APIs charge a monthly subscription — you pay even when you don
 
 ---
 **Add a clear description of the API endpoints and their functions in the README.**
+
+---
+# 🚀 Quick Start
+
+```bash
+# Get your free API key here: https://your-api-key-url.com
+```
