@@ -1735,3 +1735,22 @@ This is the official API for interacting with the Asia Airlines Company. It prov
 
 2. **Configuration**:
    Create a `.env` file with your API
+
+---
+# ✨ Why Wutong ASI?
+
+Most AI APIs charge a monthly subscription — you pay even when you don't use it. Wutong ASI is different:
+
+- **Pay per token** — only for what you consume
+- **Self-evolving** — models improve over time via genetic algorithms
+- **Locally hosted** — low latency, no data leaves our server
+- **5 models** — from lightweight 1.3B to 7B, pick the right tool for the job
+
+## 🚀 Quick Start
+
+```bash
+# Get your first model
+pip install wutong_asi
+
+# Train a basic model
+wutong_train --model_name "tiny" --num_epochs
