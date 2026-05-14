@@ -1824,3 +1824,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```
 
 This simple setup allows you to start using
+
+---
+Add a brief description of the API in the README to give potential users an overview of what the project can do.
