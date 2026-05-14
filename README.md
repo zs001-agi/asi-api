@@ -1781,3 +1781,25 @@ Once you have your API key,
 
 ---
 Add instructions on how to install dependencies and run the API.
+
+---
+# Get your free API key [here](https://wutong.asi.io/get-api-key) or sign up for a paid plan.
+
+## 🏄‍♂️ Usage
+
+To use Wutong ASI, simply install the client library and make requests:
+
+```python
+import wutong_asi
+
+client = wutong_asi.Client('YOUR_API_KEY')
+
+response = client.generate_response(prompt="What is the capital of France?")
+print(response)
+```
+
+## 🌟 Features
+
+- **5 models**: From 1.3B to 7B, choose the right model for your task
+- **Self-evolving**: Models improve over time via genetic algorithms
+- **Locally hosted**: Low latency
