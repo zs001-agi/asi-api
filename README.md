@@ -1760,3 +1760,21 @@ Add a brief description of the API, its purpose, and key features in the README.
 
 ---
 Add a brief overview of the project and its purpose in the README to make it more informative and easy for others to understand what this project is about.
+
+---
+## ✨ Why Wutong ASI?
+
+Most AI APIs charge a monthly subscription — you pay even when you don't use it. Wutong ASI is different:
+
+- **Pay per token** — only for what you consume
+- **Self-evolving** — models improve over time via genetic algorithms
+- **Locally hosted** — low latency, no data leaves our server
+- **5 models** — from lightweight 1.3B to 7B, pick the right tool for the job
+
+## 🚀 Quick Start
+
+```bash
+# Get your first API key from [Wutong ASI Dashboard](https://dashboard.wutongasi.com/).
+```
+
+Once you have your API key,
