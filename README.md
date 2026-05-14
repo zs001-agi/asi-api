@@ -1803,3 +1803,6 @@ print(response)
 - **5 models**: From 1.3B to 7B, choose the right model for your task
 - **Self-evolving**: Models improve over time via genetic algorithms
 - **Locally hosted**: Low latency
+
+---
+Improve the description or add screenshots to illustrate the main features of your API in the README.
