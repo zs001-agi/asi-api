@@ -31,6 +31,7 @@ def evolve_model(data):
     return "Model evolved successfully."
 
 def main():
+    """This is the main function that orchestrates the execution of the program."""
     api_key = "your_api_key_here"
     fetched_data = fetch_data(api_key)
     
