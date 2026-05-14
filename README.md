@@ -1827,3 +1827,23 @@ This simple setup allows you to start using
 
 ---
 Add a brief description of the API in the README to give potential users an overview of what the project can do.
+
+---
+# **Why Wutong ASI?**
+
+Most AI APIs charge a monthly subscription — you pay even when you don't use it. Wutong ASI is different:
+
+- **Pay per token** — only for what you consume
+- **Self-evolving** — models improve over time via genetic algorithms
+- **Locally hosted** — low latency, no data leaves our server
+- **5 models** — from lightweight 1.3B to 7B, pick the right tool for the job
+
+## 🚀 Quick Start
+
+```bash
+# Get your funds on Wutong ASI's platform.
+
+# Install the Wutong CLI:
+npm install wutong-cli -g
+
+# Log in:
