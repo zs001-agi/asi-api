@@ -1847,3 +1847,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 npm install wutong-cli -g
 
 # Log in:
+
+---
+Add a brief description of the API in the README file to give potential users an overview of what the project does.
