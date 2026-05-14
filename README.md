@@ -1754,3 +1754,6 @@ pip install wutong_asi
 
 # Train a basic model
 wutong_train --model_name "tiny" --num_epochs
+
+---
+Add a brief description of the API, its purpose, and key features in the README.
