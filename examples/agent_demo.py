@@ -2,22 +2,30 @@
 # Import necessary libraries
 import requests
 
-# Define the base URL of the ASI API
-base_url = "https://api.example.com"
+# Define the URL of the Wutong ASI API
+url = "https://api.wutong-asi.com/v1"
 
-# Define a function to get model information
-def get_model_info(model_id):
-    url = f"{base_url}/models/{model_id}"
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        return None
+# Define the headers for the request
+headers = {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer YOUR_ACCESS_TOKEN"
+}
 
-# Example usage of the function
-model_id = "507f1f7b-f6c1-43d5-a8fc-b9ecf25b01e1"
-model_info = get_model_info(model_id)
-if model_info:
-    print(f"Model {model_id} information: {model_info}")
-else:
-    print(f"No model found with ID {model_id}")
+# Define the data for the request
+data = {
+    "action": "self-evolving_ai",
+    "models": [
+        {"name": "model1", "description": "First local model"},
+        {"name": "model2", "description": "Second local model"},
+        {"name": "model3", "description": "Third local model"},
+        {"name": "model4", "description": "Fourth local model"},
+        {"name": "model5", "description": "Fifth local model"}
+    ]
+}
+
+# Send a POST request to the API
+response = requests.post(url, headers=headers, json=data)
+
+# Print the response status code and content
+print(f"Status Code: {response.status_code}")
+print(f"Response Content: {response.json()}")
