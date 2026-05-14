@@ -1850,3 +1850,25 @@ npm install wutong-cli -g
 
 ---
 Add a brief description of the API in the README file to give potential users an overview of what the project does.
+
+---
+# 🚀 Quick Start
+
+To get started with Wutong ASI:
+
+1. **Install the CLI**: Use pip to install the Wutong CLI.
+   ```bash
+   pip install wutong-cli
+   ```
+
+2. **Create an API key**: Generate a key on the Wutong website.
+   - Navigate to your account settings.
+   - Click on "API Keys".
+   - Generate a new key and note its ID and secret.
+
+3. **Initialize the CLI**: Run the following command with your key ID and secret.
+   ```bash
+   wutong init --api-key YOUR_API_KEY --secret YOUR_SECRET
+   ```
+
+4. **Test the API**: Use the `wutong
