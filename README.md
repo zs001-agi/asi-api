@@ -1951,3 +1951,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```bash
 # Get your free trial and start exploring Wutong ASI now!
 ```
+
+---
+Add a brief description and installation instructions in the README section.
