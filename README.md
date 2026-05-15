@@ -1889,3 +1889,6 @@ Use bullet points to highlight key features and benefits in the README. For exam
 ---
 
 This new section provides a quick start guide by directing users to get their free token on Wutong ASI's website. It also includes code fences for the bash command, making it easy for users to copy and paste the instruction directly into their terminal. This will help attract more stars by showing the ease of use and value proposition of the product.
+
+---
+Add a brief overview of the API's purpose and functionalities to help users understand how to use it effectively.
