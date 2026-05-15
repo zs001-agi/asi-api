@@ -1913,3 +1913,22 @@ This quick start guide will walk you through the process of getting
 
 ---
 Add a brief description of what the API does at the top of the README file.
+
+---
+# 🚀 Quick Start
+
+To get started with Wutong ASI, follow these steps:
+
+1. **Install Docker**: Ensure Docker is installed on your system.
+2. **Pull the Wutong ASI Docker image**:
+   ```bash
+   docker pull wutong-asi/asi
+   ```
+3. **Run the container**: Launch the Wutong ASI container with environment variables set to your model and token price.
+   ```bash
+   docker run -d \
+       --name asi-container \
+       -p 5000:5000 \
+       -e MODEL=7B \
+       -e TOKEN_PRICE=0.03 \
+       wutong-asi/asi
