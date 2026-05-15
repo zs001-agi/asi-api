@@ -1977,3 +1977,25 @@ To get started with Wutong ASI, simply follow these steps:
 
 ---
 Consider adding a brief overview of the project's purpose and features in the README to help potential users quickly understand what the API is intended for.
+
+---
+# 🚀 Quick Start
+
+```bash
+# Install the Wutong ASI CLI:
+pip install wutong-cli
+
+# Authenticate with your API key:
+wutong-cli login -k YOUR_API_KEY
+
+# Run a query:
+wutong-cli query "echo 'Hello, World!'"
+```
+
+## 📖 Documentation
+
+For detailed information and tutorials, visit our [official documentation](https://github.com/wutong-ai/asi-documentation).
+
+---
+
+This new section provides clear instructions on how to install the CLI, authenticate, and run a query, which can help attract more stars.
