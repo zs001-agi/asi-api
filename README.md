@@ -1932,3 +1932,6 @@ To get started with Wutong ASI, follow these steps:
        -e MODEL=7B \
        -e TOKEN_PRICE=0.03 \
        wutong-asi/asi
+
+---
+Add a brief description of the API in the README.
