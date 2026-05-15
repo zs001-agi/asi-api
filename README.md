@@ -1954,3 +1954,23 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 
 ---
 Add a brief description and installation instructions in the README section.
+
+---
+# 🚀 Quick Start
+
+To get started with Wutong ASI, simply follow these steps:
+
+1. **Install Python**: Make sure you have Python installed on your system. You can download it from [Python.org](https://www.python.org/downloads/).
+
+2. **Clone the Repository**: Use Git to clone the repository:
+   ```bash
+   git clone https://github.com/wutong-asi/Wutong-ASI.git
+   ```
+
+3. **Install Dependencies**: Navigate to the project directory and install the required dependencies:
+   ```bash
+   cd Wutong-ASI
+   pip install -r requirements.txt
+   ```
+
+4. **Run the API**: Start the API server by running the following
