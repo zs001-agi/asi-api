@@ -1910,3 +1910,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```
 
 This quick start guide will walk you through the process of getting
+
+---
+Add a brief description of what the API does at the top of the README file.
