@@ -1872,3 +1872,9 @@ To get started with Wutong ASI:
    ```
 
 4. **Test the API**: Use the `wutong
+
+---
+Use bullet points to highlight key features and benefits in the README. For example:
+* **Key Features**: RESTful API for fetching data
+* **Benefits**: Simplified development process, scalability, easy integration
+* **Installation Instructions**: Clear steps to set up the project
