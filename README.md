@@ -1974,3 +1974,6 @@ To get started with Wutong ASI, simply follow these steps:
    ```
 
 4. **Run the API**: Start the API server by running the following
+
+---
+Consider adding a brief overview of the project's purpose and features in the README to help potential users quickly understand what the API is intended for.
