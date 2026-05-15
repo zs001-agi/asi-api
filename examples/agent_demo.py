@@ -3,21 +3,20 @@
 import requests
 
 # Define the API endpoint URL
-url = "https://api.wutongai.com/v1/models"
+url = "http://your-wutong-asi-api-url.com/docs"
 
-# Define the parameters for the request
-params = {
-    "model_name": "self-evolving",
-    "local_models": 5
-}
-
-# Send a POST request to the API
-response = requests.post(url, json=params)
+# Make a GET request to the API
+response = requests.get(url)
 
 # Check if the request was successful
 if response.status_code == 200:
-    # Print the response content
-    print(response.json())
+    # Parse the JSON response
+    data = response.json()
+    
+    # Print the documentation details
+    for doc in data['docs']:
+        print(f"Model: {doc['model']}")
+        print(f"Description: {doc['description']}")
+        print("-" * 50)
 else:
-    # Print an error message
-    print(f"Failed to retrieve models. Status code: {response.status_code}")
+    print(f"Failed to retrieve documentation. Status code: {response.status_code}")
