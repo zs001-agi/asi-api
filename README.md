@@ -1999,3 +1999,6 @@ For detailed information and tutorials, visit our [official documentation](https
 ---
 
 This new section provides clear instructions on how to install the CLI, authenticate, and run a query, which can help attract more stars.
+
+---
+Add a brief description of the project in the README to make it more user-friendly.
