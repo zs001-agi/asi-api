@@ -2072,3 +2072,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 
 ```bash
 # Get your free API key and start building AI-powered applications today! #wutongasi #deeplearning #ai #machinelearning #naturallanguageprocessing #datasc
+
+---
+Update the README to include more detailed information about the project, such as its purpose, features, and installation instructions.
