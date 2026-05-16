@@ -2094,3 +2094,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 
 ```bash
 # Get your free token and install Wutong ASI CLI
+
+---
+Consider using emojis in the README to make it more visually appealing and engaging.
