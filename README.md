@@ -2050,3 +2050,8 @@ curl https://api.wutongasi.com/token | jq -r '.token'
 ---
 markdown
 Enhance the README to include detailed instructions on setting up and running the API service.
+
+---
+# 🚀 Quick Start
+
+Get your free API key and start using Wutong ASI today! 🚀
