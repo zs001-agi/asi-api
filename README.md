@@ -2022,3 +2022,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ## 💻 Features
 
 -
+
+---
+Add instructions on how to install and run the API.
