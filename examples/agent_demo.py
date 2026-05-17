@@ -2,30 +2,22 @@
 import requests
 
 # Define the base URL for the Wutong ASI API
-base_url = "https://api.wutong-asi.com"
+base_url = "http://example.com/asi"
 
-# Define the headers for the API requests
+# Define the headers for the API request
 headers = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer YOUR_API_KEY"
+    "Authorization": "Bearer your_access_token"
 }
 
-# Define the data payload for the API request
+# Example data to send in the request
 data = {
-    "local_models": [
-        {"name": "model1", "description": "Description of model 1"},
-        {"name": "model2", "description": "Description of model 2"},
-        {"name": "model3", "description": "Description of model 3"},
-        {"name": "model4", "description": "Description of model 4"},
-        {"name": "model5", "description": "Description of model 5"}
-    ]
+    "model_name": "local_model1",
+    "text_input": "Hello, how are you?"
 }
 
-# Make a POST request to the API endpoint for creating local models
-response = requests.post(f"{base_url}/local_models", headers=headers, json=data)
+# Send a POST request to the Wutong ASI API
+response = requests.post(base_url + "/generate", headers=headers, json=data)
 
-# Check if the request was successful
-if response.status_code == 201:
-    print("Local models created successfully")
-else:
-    print(f"Failed to create local models: {response.status_code} - {response.text}")
+# Print the response from the API
+print(response.json())
