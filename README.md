@@ -2118,3 +2118,22 @@ This will allow you to start using Wutong AS
 
 ---
 Add instructions on how to install dependencies and run the API.
+
+---
+## 💡 Wutong ASI: A Locally Hosted Self-Evolving AI System
+
+[![API Status](https://img.shields.io/badge/status-online-brightgreen)]()
+[![Model Count](https://img.shields.io/badge/models-5-blue)]()
+[![Token Price](https://img.shields.io/badge/token-$0.03%2F1K-orange)]()
+
+> **A locally-hosted, self-evolving AI system.** 5 models, 24/7 API, pay-per-token, no subscription.
+
+---
+
+## 🚀 Get Started
+
+```bash
+# Install Wutong ASI
+pip install wutong-asi
+
+# Run the server
