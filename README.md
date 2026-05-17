@@ -2140,3 +2140,29 @@ pip install wutong-asi
 
 ---
 Add a brief introduction to the API documentation or provide a quick start guide.
+
+---
+# 🚀 Quick Start
+
+To get started with Wutong ASI, follow these steps:
+
+1. **Install Python**: Make sure you have Python installed on your system.
+
+2. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/yourusername/wutong-asi.git
+   ```
+
+3. **Install Dependencies**:
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+4. **Run the API**:
+   ```sh
+   python main.py
+   ```
+
+5. **Access the API**: You can access the API at `http://localhost:8080`.
+
+6. **Try the Models**: Use the provided endpoints to interact with the models
