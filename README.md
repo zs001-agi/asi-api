@@ -2192,3 +2192,25 @@ This new section provides a simple, yet informative way to get started
 
 ---
 Add a brief description of what the API does and how it can be used.
+
+---
+# Install Wutong ASI via pip:
+pip install wutong_asi
+
+# Initialize the API client:
+client = Client('your-api-key')
+
+# Use the client to interact with the models:
+response = client.predict(model='model1', text='Hello, world!')
+print(response)
+```
+
+---
+
+## 🌟 Resources & Documentation
+
+- **Documentation**: [https://docs.wutongasi.com](https://docs.wutongasi.com)
+- **API Reference**: [https://api.wutongasi.com/docs](https://api.wutongasi.com/docs)
+
+---
+This section text provides a concise overview of the key features and benefits of Wutong ASI, highlighting its unique pricing model, self-evolution
