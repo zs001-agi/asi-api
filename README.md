@@ -2189,3 +2189,6 @@ curl -X POST https://api.wutongasi.com/v1/predict \
 ```
 
 This new section provides a simple, yet informative way to get started
+
+---
+Add a brief description of what the API does and how it can be used.
