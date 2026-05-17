@@ -2115,3 +2115,6 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```
 
 This will allow you to start using Wutong AS
+
+---
+Add instructions on how to install dependencies and run the API.
