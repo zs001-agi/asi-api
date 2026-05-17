@@ -2169,3 +2169,23 @@ To get started with Wutong ASI, follow these steps:
 
 ---
 Add a brief description of the API and its purpose.
+
+---
+# 🚀 Quick Start
+
+```bash
+# Get your free API key by signing up on Wutong ASI's official website.
+# Once you have your API key, use it to make requests to the Wutong ASI API. Check out the "API Reference" section for more details.
+
+# Example request using curl:
+curl -X POST https://api.wutongasi.com/v1/predict \
+-H "Authorization: Bearer YOUR_API_KEY" \
+-d '{
+  "model": "gpt-4",
+  "prompt": "What is the capital of France?"
+}'
+
+# Check out our API documentation for more advanced usage.
+```
+
+This new section provides a simple, yet informative way to get started
