@@ -2256,3 +2256,9 @@ Most AI APIs charge a monthly subscription — you pay even when you don't use i
 ```bash
 # Get your free token and start using Wutong ASI immediately.
 curl -X POST -H "Content-Type: application/json" https://api.wutong
+
+---
+markdown
+# asi-api
+
+A Python API for managing asset information.
