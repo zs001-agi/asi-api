@@ -2292,3 +2292,28 @@ To get started with Wutong ASI, follow these steps:
 
 ---
 Enhance the README to include a brief description of what the API does and how to get started.
+
+---
+# Download the Wutong ASI API wrapper for your preferred programming language:
+# https://github.com/Wutong-ASI/wutong-asi-client
+
+# Install the package using pip:
+# pip install wutong-asi-client
+
+# Use the client to interact with the API:
+from wutong_asi_client import WutongASIClient
+
+client = WutongASIClient()
+
+response = client.call('generate', text='Hello, world!')
+
+print(response)
+```
+
+## 📚 Documentation
+
+For more detailed information and advanced usage, refer to our [official documentation](https://docs.wutongasi.com).
+
+---
+
+This new section provides a quick start guide for users to get started with the Wutong AS
