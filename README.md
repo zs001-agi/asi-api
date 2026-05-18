@@ -2320,3 +2320,17 @@ This new section provides a quick start guide for users to get started with the 
 
 ---
 Enhance the "Overview" section with bullet points to list key features and functionalities of the API.
+
+---
+# 🚀 Quick Start
+
+To get started with Wutong ASI:
+
+1. Sign up on our [website](https://wutong.ai).
+2. Choose a model and API version.
+3. Install the `wutong-asi` package using npm or yarn.
+4. Import and use the API in your project.
+
+## 🌟 What's Next?
+
+Check out our [documentation](https://docs.wutong.ai) for more details. We're always looking to improve, so feel free to open an issue if you have any questions!
