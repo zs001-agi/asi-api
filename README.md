@@ -2262,3 +2262,30 @@ markdown
 # asi-api
 
 A Python API for managing asset information.
+
+---
+## ⚡ Quick Start
+
+To get started with Wutong ASI, follow these steps:
+
+1. **Install Python**: Make sure you have Python installed on your system.
+
+2. **Clone the Repository**: Clone the Wutong ASI repository from GitHub.
+
+   ```bash
+   git clone https://github.com/yourusername/wutong-asi.git
+   ```
+
+3. **Navigate to the Directory**: Change into the cloned directory.
+
+   ```bash
+   cd wutong-asi
+   ```
+
+4. **Run the Setup Script**: Run the setup script to install the necessary dependencies.
+
+   ```bash
+   python setup.py install
+   ```
+
+5. **Start the Server**: Start the server to
